@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.example.inventory_management_system","l":"Controller"},{"m":"com.example.inventory_management_system","l":"Main"},{"m":"com.example.inventory_management_system","l":"Model"}];updateSearchResults();

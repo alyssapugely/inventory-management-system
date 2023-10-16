@@ -12,8 +12,6 @@ import java.io.IOException;
 
 /** This class contains methods that start the application. This application is an Inventory Management System that is
  * used to temporarily store information about the parts and products in an inventory.
- *
- * LOCATION OF JAVADOCS FOLDER: Inside this project under the src folder
  */
 public class main extends Application {
 
