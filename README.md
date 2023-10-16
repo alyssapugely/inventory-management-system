@@ -36,7 +36,7 @@ an organized and intutive user experience.
 - Install your preferred IDE with Java support, I used [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/other.html). I suggest using the latest version.
 - Install [JDK 17](https://www.oracle.com/java/technologies/downloads/#java17). I used JDK 17 because it is the long term support version.
 
-## Installation
+## Installation and Usage
 
 1. Ensure that you have an IDE installed that supports Java, as well as JDK 17 (see prerequisites).
 2. Clone [this repository](https://github.com/alyssapugely/inventory-management-system)
