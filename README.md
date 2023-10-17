@@ -33,6 +33,7 @@ an organized and intutive user experience.
 - An exit button allows the user to exit the application.
 
 ## Prerequisites
+
 - Install your preferred IDE with Java support, I used [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/other.html). I suggest using the latest version.
 - Install [JDK 17](https://www.oracle.com/java/technologies/downloads/#java17). I used JDK 17 because it is the long term support version.
 
@@ -44,11 +45,9 @@ an organized and intutive user experience.
 4. To run the program in IntelliJ, click the "Run" tab in the top toolbar and select "Run 'Inventory Management System'" option.
 
 ## Development
+
 As mentioned above, I used JDK 17 in IntelliJ to develop this program. I used [Scene Builder](https://gluonhq.com/products/scene-builder/) to design the GUI components, which utilizes the JavaFX library to program the GUI. Since I used a Maven build for this program, 
 I did not need to download the JavaFX SDK. However, had I not used a Maven build, I would have needed to install [JavaFX SDK](https://gluonhq.com/products/javafx/). A note on Scene Builder- IntelliJ does have a built in Scene Builder, but it is quite slow, so I 
 recommend installing the stand alone version I linked. 
 
-This program uses MVC (Model View Controller) architecture. The Model package contains the Product, InHouse, Outsourced, Part, and Inventory classes, which are used to create objects from these classes and manipulate the objects using the functions created in these classes.
-The Model package is written in Java. The View package holds five JavaFX files that create five different screens- Add Part, Add Product, Modify Part, Modify Product, and Main Screen. These files contain the code that is reponsible for the visual elements of the GUI.
-The Controller package contains five classes- one controller class for each of the aforementioned screens. The Controller package is written in Java, and is responsible for making the GUI elements interactive. These controller classes contain code that manipulates the GUI
-based on user input. 
+This program uses MVC (Model View Controller) architecture. The Model package contains the Product, InHouse, Outsourced, Part, and Inventory classes, which are used to create objects from these classes and manipulate the objects using the functions created in these classes. The Model package is written in Java. The View package holds five JavaFX files that create five different screens- Add Part, Add Product, Modify Part, Modify Product, and Main Screen. These files contain the code that is reponsible for the visual elements of the GUI. The Controller package contains five classes- one controller class for each of the aforementioned screens. The Controller package is written in Java, and is responsible for making the GUI elements interactive. These controller classes contain code that manipulates the GUI based on user input. 
